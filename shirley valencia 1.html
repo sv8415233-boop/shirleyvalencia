@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Paisaje SVG - Shirley Valencia</title>
+</head>
+<body style="margin: 0; padding: 20px; background: #e0f7fa; font-family: Arial, sans-serif;">
+    <h1 style="text-align: center; color: #00796b;">Mi Paisaje con SVG</h1>
+
+    <!-- LIENZO DEL PAISAJE -->
+    <svg width="800" height="500" xmlns="http://www.w3.org/2000/svg"
+         style="border: 3px solid #004d40; display: block; margin: 0 auto; border-radius: 10px;">
+
+        <!-- 🔵 CIELO -->
+        <rect x="0" y="0" width="800" height="350" fill="#87CEEB"/>
+
+        <!-- ☀️ SOL -->
+        <circle cx="700" cy="80" r="50" fill="#FFD700" stroke="#FFA500" stroke-width="3"/>
+
+        <!-- ☁️ NUBE 1 -->
+        <ellipse cx="150" cy="70" rx="50" ry="25" fill="white"/>
+        <ellipse cx="200" cy="60" rx="40" ry="22" fill="white"/>
+        <ellipse cx="250" cy="70" rx="50" ry="25" fill="white"/>
+
+        <!-- ☁️ NUBE 2 -->
+        <ellipse cx="450" cy="120" rx="60" ry="28" fill="white"/>
+        <ellipse cx="510" cy="110" rx="45" ry="24" fill="white"/>
+
+        <!-- 🏔️ MONTAÑAS -->
+        <polygon points="0,350 150,180 300,350" fill="#696969"/>
+        <polygon points="200,350 400,130 600,350" fill="#808080"/>
+        <polygon points="500,350 650,200 800,350" fill="#696969"/>
+
+        <!-- 🟢 SUELO / PRADO -->
+        <rect x="0" y="350" width="800" height="150" fill="#228B22"/>
+
+        <!-- 🌳 ÁRBOL IZQUIERDA -->
+        <rect x="100" y="300" width="20" height="70" fill="#8B4513"/>
+        <circle cx="110" cy="280" r="40" fill="#2E8B57"/>
+        <circle cx="90" cy="310" r="35" fill="#3CB371"/>
+        <circle cx="130" cy="310" r="35" fill="#3CB371"/>
+
+        <!-- 🌳 ÁRBOL DERECHA -->
+        <rect x="650" y="310" width="22" height="65" fill="#8B4513"/>
+        <circle cx="661" cy="285" r="42" fill="#2E8B57"/>
+        <circle cx="638" cy="315" r="36" fill="#3CB371"/>
+        <circle cx="682" cy="315" r="36" fill="#3CB371"/>
+
+        <!-- 🏠 CASITA -->
+        <rect x="350" y="280" width="100" height="70" fill="#FAFAD2"/>
+        <polygon points="340,280 400,220 460,280" fill="#A52A2A"/>
+        <rect x="385" y="320" width="30" height="30" fill="#8B4513"/>
+        <rect x="360" y="295" width="25" height="20" fill="#87CEEB" stroke="#333" stroke-width="1"/>
+        <rect x="415" y="295" width="25" height="20" fill="#87CEEB" stroke="#333" stroke-width="1"/>
+
+        <!-- 🌼 FLOR -->
+        <circle cx="550" cy="400" r="6" fill="#FF69B4"/>
+        <line x1="550" y1="406" x2="550" y2="425" stroke="#228B22" stroke-width="2"/>
+
+        <!-- 📝 FIRMA -->
+        <text x="20" y="480" font-family="Arial" font-size="16" fill="#333">Realizado por: Shirley Margoth Valencia Valencia</text>
+    </svg>
+
+</body>
+</html>
